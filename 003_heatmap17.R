@@ -9,8 +9,8 @@ ipak <- function(pkg){
 packages <- c("sp","rgdal","gstat","intervals","raster")
 ipak(packages)
 
-input <- "G:/workfoldergis/research/heatisland/003_attributes/tmpnhmd/003_tmp17_map.shp"
-input2 <- "G:/workfoldergis/research/heatisland/002_boundaries/000_gwj_5179.shp"
+input <- ".../003_tmp17_map.shp"
+input2 <- ".../000_gwj_5179.shp"
 tmp <- readOGR(input)
 city <- readOGR(input2)
 
